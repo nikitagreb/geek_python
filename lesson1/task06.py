@@ -3,6 +3,7 @@ desired_result = int(input("Введите желаемоего количест
 day = 1
 
 while current_result < desired_result:
+    print(f"{day}-й день: {current_result} км.")
     current_result = current_result * 1.1
     day = day + 1
 
